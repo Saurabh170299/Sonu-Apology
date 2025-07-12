@@ -1,0 +1,73 @@
+!DOCTYPE html
+html lang=en
+head
+  meta charset=UTF-8 
+  meta name=viewport content=width=device-width, initial-scale=1.0
+  titleI'm Sorry, My Lovetitle
+  style
+    body {
+      font-family 'Segoe UI', sans-serif;
+      background #f9f3f3;
+      color #333;
+      margin 0;
+      padding 0;
+      text-align center;
+    }
+    .container {
+      max-width 700px;
+      margin auto;
+      padding 2rem;
+    }
+    h1 {
+      color #c0392b;
+    }
+    .message {
+      font-size 1.2rem;
+      margin 2rem 0;
+    }
+    .btn {
+      background #c0392b;
+      color white;
+      padding 0.8rem 1.5rem;
+      border none;
+      border-radius 25px;
+      text-decoration none;
+      font-size 1rem;
+    }
+    img {
+      max-width 100%;
+      border-radius 20px;
+      margin-top 20px;
+    }
+  style
+head
+body
+  div class=container
+    h1I'm Sorry, [Her Name]h1
+    p class=message
+      I know I hurt you, and there's no excuse for it. I'm truly sorry.br
+      You mean the world to me, and I never want to lose what we have.br
+      Please let me make it right.
+    p
+    a class=btn href=#letterRead My Lettera
+    img src=your-photo.jpg alt=Us 
+  div
+
+  div id=letter class=container
+    h2To My Love,h2
+    p class=message
+      [Write a heartfelt message here. Be vulnerable. Be real. Share your feelings. Apologize sincerely.]
+    p
+    a class=btn href=#finalNexta
+  div
+
+  div id=final class=container
+    h2I Want to Make This Righth2
+    p class=message
+      I promise to be better — more present, more patient, more loving.br
+      Can we please talk when you're ready
+    p
+    pstrongWith all my heart,strongbrYour [nickname]p
+  div
+body
+html
