@@ -4,6 +4,16 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>I'm Sorry, Sonu</title>
+
+  <!-- ✅ Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-5M59Y71J1L"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-5M59Y71J1L');
+  </script>
+
   <style>
     body {
       font-family: 'Segoe UI', sans-serif;
@@ -33,6 +43,7 @@
       border-radius: 25px;
       text-decoration: none;
       font-size: 1rem;
+      cursor: pointer;
     }
     img {
       max-width: 100%;
@@ -46,7 +57,7 @@
     <h1>I'm Sorry, Ankita</h1>
     <p class="message">
       I know I hurt you, and there's no excuse for it. I'm truly sorry.<br>
-      One thing that i have learnt from this that we should have trust on each other.<br>
+      One thing that I have learnt from this is that we should have trust in each other.<br>
       Please let me make it right.
     </p>
     <a class="btn" href="#letter">Read My Letter</a>
@@ -54,48 +65,47 @@
   </div>
 
   <div id="letter" class="container">
-  <h2>To My Rusleli Bolake,</h2>
-  <p class="message">
-    I know I messed up, and I can’t express enough how sorry I am for hurting you.  
-    Not a moment goes by where I don’t regret what happened.  
-    You didn’t deserve that pain, especially not from someone who claims to love you.
+    <h2>To My Rusleli Bolake,</h2>
+    <p class="message">
+      I know I messed up, and I can’t express enough how sorry I am for hurting you.  
+      Not a moment goes by where I don’t regret what happened.  
+      You didn’t deserve that pain, especially not from someone who claims to love you.
 
-    <br><br>
-    I realize now how important trust is — how it’s the foundation of everything we’ve built together.  
-    And I took it for granted. That’s on me.  
-    But I’m learning, slowly and painfully, what it truly means to love someone not just with words,  
-    but with actions, with consistency, with respect.
+      <br><br>
+      I realize now how important trust is — how it’s the foundation of everything we’ve built together.  
+      And I took it for granted. That’s on me.  
+      But I’m learning, slowly and painfully, what it truly means to love someone not just with words,  
+      but with actions, with consistency, with respect.
 
-    <br><br>
-    You're my closest friend, my strength,  
-    the person who makes life brighter.  
-    When I say I miss you, I mean I miss your voice, your laugh,  
-    
+      <br><br>
+      You're my closest friend, my strength,  
+      the person who makes life brighter.  
+      When I say I miss you, I mean I miss your voice, your laugh,  
 
-    <br><br>
-    If you’re reading this, I just want you to know I’m not giving up.  
-    I’m not perfect, but I’m ready to grow, to listen, to rebuild that trust — however long it takes.  
-    You deserve that effort. You deserve someone who learns from their mistakes.  
-    You deserve the very best version of me — and that’s what I promise to work toward.
+      <br><br>
+      If you’re reading this, I just want you to know I’m not giving up.  
+      I’m not perfect, but I’m ready to grow, to listen, to rebuild that trust — however long it takes.  
+      You deserve that effort. You deserve someone who learns from their mistakes.  
+      You deserve the very best version of me — and that’s what I promise to work toward.
 
-    <br><br>
-    I Adore you, Ankita.  
-    More than I can put into a website or a letter.  
-    Please, whenever you’re ready, I’m here — heart open, hands open, waiting.
+      <br><br>
+      I adore you, Ankita.  
+      More than I can put into a website or a letter.  
+      Please, whenever you’re ready, I’m here — heart open, hands open, waiting.
 
-    <br><br>
-    Yours,  
-    <br><strong>chotu</strong>
-  </p>
+      <br><br>
+      Yours,  
+      <br><strong>chotu</strong>
+    </p>
+
     <!-- 🤗 Hug Button (English) -->
-  <button class="btn" onclick="showHug()">🤗 Click here for a virtual hug</button>
-  <p id="hug-message" style="font-size:1.5rem; display:none; margin-top: 1rem;">
-    🤗 A big warm hug from Sonu — just for you 💛
-  </p>
+    <button class="btn" onclick="showHug()">🤗 Click here for a virtual hug</button>
+    <p id="hug-message" style="font-size:1.5rem; display:none; margin-top: 1rem;">
+      🤗 A big warm hug from Sonu — just for you 💛
+    </p>
 
-  <a class="btn" href="#final" style="margin-top: 2rem;">Next</a>
-</div>
-
+    <a class="btn" href="#final" style="margin-top: 2rem;">Next</a>
+  </div>
 
   <div id="final" class="container">
     <h2>I Want to Make This Right</h2>
@@ -105,5 +115,12 @@
     </p>
     <p><strong>With all my heart,</strong><br>Your Chotu</p>
   </div>
+
+  <!-- 🎯 Hug Script -->
+  <script>
+    function showHug() {
+      document.getElementById("hug-message").style.display = "block";
+    }
+  </script>
 </body>
 </html>
